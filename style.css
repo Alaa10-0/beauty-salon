@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(247, 194, 233);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: rebeccapurple;
+}
+
+header {
+    text-align: center;
+    padding: 60px 30px;
+    background-image: linear-gradient(rgba(255, 240, 245, 0.45), rgba(255, 240, 245, 0.45)),
+        url("images/ogon.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    color: #3b164f;
+    font-weight: bold;
+    font-size: 70px;
+    letter-spacing: 4px;
+    position: relative;
+    top: -20px;
+}
+
+header p {
+    color: #3b164f;
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+}
+
+img {
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+nav a {
+    color: rebeccapurple;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+nav a.active {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+#sidfot {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+main a {
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: black;
+}
